@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container-backgroundNav{
+    max-width: 100% !important;
+    height: 100vh;
+    width: 100%;
+    background-image: url(/bgg.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.navbar.color{
+    background-color: #95c7f3;
+}
+     
+
+.navbar-brand {
+    position:absolute;
+    top: 0;
+    left: 0;
+}
+
+img.brand {
+    height: 45px;
+}
+
+img.catdogg {
+    height: 50px;
+    width: 50px;
+    left: 80px;
+}
+
+.content h1{
+    font-size: 60px;
+    font-weight: 100;
+    margin-top: 24px;
+    margin-bottom: 15px;
+    color: #232d60;
+}
+.content p{
+    font-size: 20px;
+    color: #6a7199;
+}
+.content{
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.content .btn{
+    display: inline-block;
+    background: linear-gradient(45deg, #8AB2FF, #C4E9FF);
+    border-radius: 6px;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8 px 22px rgba(94, 28, 68, 0.15);
+}
+.feature-img{
+    height: 90%;
+    bottom: 0;
+    right: 80px;
+    background-image: url(/catdog.png);
+    background-position: center;
+    background-size: cover;
+    box-sizing: border-box;
+    position: relative;
+}
